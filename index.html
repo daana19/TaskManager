@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- defer is to prevent loading errors-->
+    <script src="script.js" defer></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4.1.3/tsparticles.confetti.bundle.min.js"></script>
+          
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>Task Manager</h1>
+            <div class="statcontainer">
+                <div class="details">
+                    <h3>keep it up!</h3>
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div class="stats-number">
+                    <p id="numbers">0 / 0</p>
+                </div>
+            </div>
+           <form action="" class="input-area">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+           </form>
+           
+           
+           <div class="todos-container">
+            <ul id="task-list"></ul>
+            <img src="empty-box.png" alt="empty list" class="empty-Image" id="empty-Image" style="display: block;">
+           </div>
+        </div>
+    </div>
+</body>
+</html>
