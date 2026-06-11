@@ -2,7 +2,7 @@
 a task manager that is made to be simple and easy to use without login or distractions made as simple tool that saves tasks on the browser.
 
 #Live demo 
--[insert link]
+- https://daana19.github.io/TaskManager/
 
 ##tech stack 
 -FrontEnd: HTML and CSS (Google fonts, Font Awesome, Unsplash background, Flaticon icons).
